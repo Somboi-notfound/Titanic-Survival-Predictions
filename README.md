@@ -15,6 +15,8 @@ one global median); compared 4 models via 5-fold cross-validation;
 combined top models into a soft-voting ensemble.
 Result: ~1,000th position on Kaggle leaderboard.
 
+Interestingly, v1's single train/validation split reported a higher accuracy (0.88) than v2's cross-validated score (0.83). This illustrates exactly why cross-validation matters: a single split can give a misleadingly optimistic number due to chance, while cross-validation provides a more honest estimate. Despite the lower-looking validation score, v2 performed dramatically better on Kaggle's actual hidden test set (~1,000th vs ~10,000th), confirming that the cross-validated model generalized better.
+
 ## What Changed and Why
 
 **Age imputation** — v1 used a single overall median to fill missing ages. 
