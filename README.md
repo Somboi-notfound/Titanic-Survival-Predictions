@@ -55,3 +55,6 @@ Python, Pandas, scikit-learn, XGBoost
 - Data preprocessing with Pandas including handling missing values and mapping categorical values.
 - Feature engineering and selecting relevant features for the model to learn from.
 - Building Scikit-learn pipelines for consistent preprocessing.
+
+## Dataset
+[Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
