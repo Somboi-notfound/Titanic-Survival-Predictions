@@ -50,3 +50,8 @@ and averaging their predictions often produces a more robust result.
 
 ## Tech stack
 Python, Pandas, scikit-learn, XGBoost
+
+## What I learned
+- Data preprocessing with Pandas including handling missing values and mapping categorical values.
+- Feature engineering and selecting relevant features for the model to learn from.
+- Building Scikit-learn pipelines for consistent preprocessing.
