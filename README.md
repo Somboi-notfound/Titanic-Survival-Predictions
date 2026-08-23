@@ -50,6 +50,3 @@ and averaging their predictions often produces a more robust result.
 
 ## Tech stack
 Python, Pandas, scikit-learn, XGBoost
-
-## What I learned
-[your own honest 2-3 sentences here]
